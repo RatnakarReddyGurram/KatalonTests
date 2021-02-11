@@ -24,7 +24,7 @@ WebUI.navigateToUrl(GlobalVariable.RegalURL)
 
 WebUI.sendKeys(findTestObject('HomePage/Search_area'), 'severe duty motors')
 
-WebUI.waitForElementClickable(findTestObject('HomePage/Search_Button'), 0)
+WebUI.waitForElementClickable(findTestObject('HomePage/Search_Button'), 5000)
 
 WebUI.click(findTestObject('HomePage/Search_Button'))
 
