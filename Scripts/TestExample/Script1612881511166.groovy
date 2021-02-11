@@ -9,39 +9,16 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import org.openqa.selenium.Keys as Keys
+import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.google.com/')
-
-WebUI.closeBrowser()
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.google.com/')
-
-WebUI.closeBrowser()
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.google.com/')
-
-WebUI.click(findTestObject('Object Repository/Page_Google/input_Remove_btnK'))
-
-WebUI.click(findTestObject('Object Repository/Page_Google/a_Gmail'))
-
-WebUI.click(findTestObject('Page_Google/input_Remove_btnK'))
-
-WebUI.sendKeys(findTestObject('null'), '')
-
-WebUI.sendKeys(findTestObject('null'), '')
+WebUI.navigateToUrl(GlobalVariable.RegalURL)
 
 WebUI.closeBrowser()
 

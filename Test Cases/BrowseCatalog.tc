@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BrowseCatalog</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c813b71b-63ac-4523-9cd4-ace4231860ba</testCaseGuid>
+   <variable>
+      <defaultValue>'https://cswww.regalbeloit.com/'</defaultValue>
+      <description></description>
+      <id>a166fbd6-2218-4f0f-8573-a4247b84e913</id>
+      <masked>false</masked>
+      <name>Url_stagging</name>
+   </variable>
+</TestCaseEntity>
