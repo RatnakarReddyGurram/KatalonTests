@@ -32,10 +32,4 @@
          <variableId>a166fbd6-2218-4f0f-8573-a4247b84e913</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>2f2a3441-59b3-42f6-b82a-a357089ded28</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TestOn</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

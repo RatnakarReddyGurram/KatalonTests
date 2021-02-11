@@ -12,8 +12,9 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.openBrowser('')
 
@@ -22,6 +23,8 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl(GlobalVariable.RegalURL)
 
 WebUI.sendKeys(findTestObject('HomePage/Search_area'), 'severe duty motors')
+
+WebUI.waitForElementClickable(findTestObject('HomePage/Search_Button'), 0)
 
 WebUI.click(findTestObject('HomePage/Search_Button'))
 
