@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
 WebUI.openBrowser(GlobalVariable.RegalURL)
 
 WebUI.maximizeWindow()
@@ -41,7 +40,7 @@ WebUI.click(findTestObject('ProductListPage/Product_Two'))
 
 WebUI.scrollToPosition(500, 0)
 
-WebUI.waitForElementClickable(findTestObject('ProductListPage/Product_Three'), 5000)
+WebUI.waitForElementClickable(findTestObject('ProductListPage/Product_Three'), 10000)
 
 WebUI.click(findTestObject('ProductListPage/Product_Three'))
 
