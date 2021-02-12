@@ -40,10 +40,6 @@ WebUI.click(findTestObject('ProductListPage/Product_Two'))
 
 WebUI.scrollToPosition(500, 0)
 
-WebUI.waitForElementClickable(findTestObject('ProductListPage/Product_Three'), 10000)
-
-WebUI.click(findTestObject('ProductListPage/Product_Three'))
-
 WebUI.waitForElementClickable(findTestObject('ProductListPage/CompareButton'), 5000)
 
 WebUI.click(findTestObject('ProductListPage/CompareButton'))
