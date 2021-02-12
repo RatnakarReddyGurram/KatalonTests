@@ -14,14 +14,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
 WebUI.openBrowser(GlobalVariable.RegalURL)
 
 WebUI.waitForElementClickable(findTestObject('HomePage/ProductList/Products'), 5000)
 
 WebUI.mouseOver(findTestObject('HomePage/ProductList/Products'))
 
-WebUI.waitForElementClickable(findTestObject('HomePage/ProductList/Bearings'), 5000)
+WebUI.waitForElementClickable(findTestObject('HomePage/ProductList/Bearings'), 10000)
 
 WebUI.click(findTestObject('HomePage/ProductList/Bearings'))
 
