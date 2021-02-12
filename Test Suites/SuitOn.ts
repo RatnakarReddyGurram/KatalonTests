@@ -17,4 +17,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/BrowserProductElink</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f89975b5-4b54-4343-9c4a-a10b407028c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TestExample</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
