@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ProductOne</name>
+   <name>industries</name>
    <tag></tag>
-   <elementGuidId>1acb5727-2292-4fde-80cd-cd641e6845b2</elementGuidId>
+   <elementGuidId>bc57fe46-376e-412b-b176-b0cd0cabd951</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;wrapper&quot;]/main/div/div[2]/div/div/div[1]/div/div/div[2]/div/div[3]/div/div/table/tbody[1]/tr[2]/td[1]/div/label/span[2]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//span[contains(.,'Industries')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

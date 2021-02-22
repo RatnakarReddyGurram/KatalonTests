@@ -21,6 +21,12 @@
       <guid>f89975b5-4b54-4343-9c4a-a10b407028c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TestExample</testCaseId>
+      <testCaseId>Test Cases/BrowserCatalogGuest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9f3d75d2-45fd-41c9-abbb-4bbe56e3bc76</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HVAC_Motor_Compare</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

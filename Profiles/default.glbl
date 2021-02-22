@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://cswww.regalbeloit.com/'</initValue>
+      <initValue>'https://qawww.regalbeloit.com/'</initValue>
       <name>RegalURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

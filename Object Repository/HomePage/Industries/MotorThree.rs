@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>MotorThree</name>
+   <tag></tag>
+   <elementGuidId>03b76420-4dbc-4a9c-847a-c87bf2d9de5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;wrapper&quot;]/main/div/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[3]/div/div[1]/table/tbody[3]/tr[2]/td[1]/div/label/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

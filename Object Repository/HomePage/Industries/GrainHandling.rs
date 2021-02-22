@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ProductOne</name>
+   <name>GrainHandling</name>
    <tag></tag>
-   <elementGuidId>1acb5727-2292-4fde-80cd-cd641e6845b2</elementGuidId>
+   <elementGuidId>39a9b16d-7580-4128-810a-0e395a1a32e2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;wrapper&quot;]/main/div/div[2]/div/div/div[1]/div/div/div[2]/div/div[3]/div/div/table/tbody[1]/tr[2]/td[1]/div/label/span[2]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//a[contains(.,'Grain Handling')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tools&amp;Resources-Motor Cross Reference-Search prodct with equals(D456)-Select required part-PDP-Return pervious page-Serach with contains(D456)-Regal Home</description>
+   <name>SearchProdctWithEquals(D456)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b4e5f85-024e-4ed2-9bd3-c1174f75efcc</testCaseGuid>
+</TestCaseEntity>

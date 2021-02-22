@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ProductOne</name>
+   <name>MotorLink</name>
    <tag></tag>
-   <elementGuidId>1acb5727-2292-4fde-80cd-cd641e6845b2</elementGuidId>
+   <elementGuidId>1c082f15-664a-4c7b-8d2f-182f4df49029</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;wrapper&quot;]/main/div/div[2]/div/div/div[1]/div/div/div[2]/div/div[3]/div/div/table/tbody[1]/tr[2]/td[1]/div/label/span[2]</value>
+         <value>(//a[contains(.,'Motors')])[39]</value>
       </entry>
       <entry>
          <key>BASIC</key>

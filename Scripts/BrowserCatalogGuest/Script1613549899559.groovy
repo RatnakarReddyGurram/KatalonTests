@@ -13,6 +13,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 WebUI.openBrowser(GlobalVariable.RegalURL)
 
@@ -28,7 +29,7 @@ WebUI.waitForElementClickable(findTestObject('ProductListPage/Brand_Filter'), 50
 
 WebUI.click(findTestObject('ProductListPage/Brand_Filter'))
 
-WebUI.waitForElementClickable(findTestObject('ProductListPage/ProductOne'), 5000)
+WebUI.waitForElementClickable(findTestObject('ProductListPage/ProductOne'), 30000)
 
 WebUI.click(findTestObject('ProductListPage/ProductOne'))
 
