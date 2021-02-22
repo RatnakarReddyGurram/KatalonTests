@@ -18,5 +18,3 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('BrowserProductElink'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.authenticate('', '', '', 0)
-
