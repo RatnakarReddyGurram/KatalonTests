@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuitOn" time="156.426" tests="3" failures="0" skips="0" errors="0">
+   <testsuite name="SuitOn" tests="3" failures="0" errors="0" time="156.426" skips="0" timestamp="2021-02-22 13:13:25" hostname="900015183 - HYDLT-7WKMTT2.rbc.int" id="Test Suites/SuitOn">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210222_131323\\SuitOn\\20210222_131323"/>
+         <property name="logFiles" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210222_131323\\SuitOn\\20210222_131323\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="900015183 - HYDLT-7WKMTT2.rbc.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+         <property name="browser" value="Chrome 88.0.4324.96"/>
+         <property name="hostAddress" value="10.139.248.184"/>
+         <property name="sessionId" value="2ba2df18d74cbe3062ccb110cc76da5c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BrowserProductElink" time="37.148" classname="Test Cases/BrowserProductElink" status="PASSED">
+         <system-out><![CDATA[2021-02-22 13:13:27 - [TEST_CASE][PASSED] - Test Cases/BrowserProductElink: Test Cases/BrowserProductElink
+
+2021-02-22 13:13:27 - [TEST_STEP][PASSED] - openBrowser(RegalURL): Browser is opened with url: 'https://qawww.regalbeloit.com/'
+
+2021-02-22 13:13:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-22 13:13:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-22 13:13:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qawww.regalbeloit.com/'
+
+2021-02-22 13:13:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-22 13:13:42 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-22 13:13:42 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/ProductList/Products"), 5000): Object 'Object Repository/HomePage/ProductList/Products' is clickable
+
+2021-02-22 13:13:43 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/ProductList/Products' is clickable
+
+2021-02-22 13:13:43 - [TEST_STEP][PASSED] - mouseOver(findTestObject("HomePage/ProductList/Products")): Object: 'Object Repository/HomePage/ProductList/Products' is hovered
+
+2021-02-22 13:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ProductList/Products' is hovered
+
+2021-02-22 13:13:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/ProductList/Bearings"), 10000): Object 'Object Repository/HomePage/ProductList/Bearings' is clickable
+
+2021-02-22 13:13:44 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/ProductList/Bearings' is clickable
+
+2021-02-22 13:13:44 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/ProductList/Bearings")): Object: 'Object Repository/HomePage/ProductList/Bearings' is clicked on
+
+2021-02-22 13:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ProductList/Bearings' is clicked on
+
+2021-02-22 13:13:47 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/ProductList/SmartInterchage"), 5000): Object 'Object Repository/HomePage/ProductList/SmartInterchage' is clickable
+
+2021-02-22 13:13:49 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/ProductList/SmartInterchage' is clickable
+
+2021-02-22 13:13:49 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/ProductList/SmartInterchage")): Object: 'Object Repository/HomePage/ProductList/SmartInterchage' is clicked on
+
+2021-02-22 13:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ProductList/SmartInterchage' is clicked on
+
+2021-02-22 13:13:49 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-02-22 13:13:49 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-02-22 13:13:49 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/ProductList/RegalIcon"), 5000): Object 'Object Repository/HomePage/ProductList/RegalIcon' is clickable
+
+2021-02-22 13:14:00 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/ProductList/RegalIcon' is clickable
+
+2021-02-22 13:14:00 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/ProductList/RegalIcon")): Object: 'Object Repository/HomePage/ProductList/RegalIcon' is clicked on
+
+2021-02-22 13:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ProductList/RegalIcon' is clicked on
+
+2021-02-22 13:14:03 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2021-02-22 13:14:04 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2021-02-22 13:14:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-22 13:14:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BrowserCatalogGuest" time="62.095" classname="Test Cases/BrowserCatalogGuest" status="PASSED">
+         <system-out><![CDATA[2021-02-22 13:14:04 - [TEST_CASE][PASSED] - Test Cases/BrowserCatalogGuest: Test Cases/BrowserCatalogGuest
+
+2021-02-22 13:14:05 - [TEST_STEP][PASSED] - openBrowser(RegalURL): Browser is opened with url: 'https://qawww.regalbeloit.com/'
+
+2021-02-22 13:14:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-22 13:14:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-22 13:14:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qawww.regalbeloit.com/'
+
+2021-02-22 13:14:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-22 13:14:18 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-22 13:14:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("HomePage/Search_area"), "severe duty motors"): Keys 'severe duty motors' sent to object: 'Object Repository/HomePage/Search_area'
+
+2021-02-22 13:14:20 - [MESSAGE][PASSED] - Keys 'severe duty motors' sent to object: 'Object Repository/HomePage/Search_area'
+
+2021-02-22 13:14:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/Search_Button"), 5000): Object 'Object Repository/HomePage/Search_Button' is clickable
+
+2021-02-22 13:14:21 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Search_Button' is clickable
+
+2021-02-22 13:14:21 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Search_Button")): Object: 'Object Repository/HomePage/Search_Button' is clicked on
+
+2021-02-22 13:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Search_Button' is clicked on
+
+2021-02-22 13:14:21 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ProductListPage/Brand_Filter"), 5000): Object 'Object Repository/ProductListPage/Brand_Filter' is clickable
+
+2021-02-22 13:14:26 - [MESSAGE][PASSED] - Object 'Object Repository/ProductListPage/Brand_Filter' is clickable
+
+2021-02-22 13:14:26 - [TEST_STEP][PASSED] - click(findTestObject("ProductListPage/Brand_Filter")): Object: 'Object Repository/ProductListPage/Brand_Filter' is clicked on
+
+2021-02-22 13:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductListPage/Brand_Filter' is clicked on
+
+2021-02-22 13:14:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ProductListPage/ProductOne"), 30000): Object 'Object Repository/ProductListPage/ProductOne' is clickable
+
+2021-02-22 13:14:31 - [MESSAGE][PASSED] - Object 'Object Repository/ProductListPage/ProductOne' is clickable
+
+2021-02-22 13:14:31 - [TEST_STEP][PASSED] - click(findTestObject("ProductListPage/ProductOne")): Object: 'Object Repository/ProductListPage/ProductOne' is clicked on
+
+2021-02-22 13:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductListPage/ProductOne' is clicked on
+
+2021-02-22 13:14:32 - [TEST_STEP][PASSED] - scrollToPosition(500, 0): Browser is scrolled to position x = 500, y = 0
+
+2021-02-22 13:14:32 - [MESSAGE][PASSED] - Browser is scrolled to position x = 500, y = 0
+
+2021-02-22 13:14:32 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ProductListPage/Product_Two"), 5000): Object 'Object Repository/ProductListPage/Product_Two' is clickable
+
+2021-02-22 13:14:33 - [MESSAGE][PASSED] - Object 'Object Repository/ProductListPage/Product_Two' is clickable
+
+2021-02-22 13:14:33 - [TEST_STEP][PASSED] - click(findTestObject("ProductListPage/Product_Two")): Object: 'Object Repository/ProductListPage/Product_Two' is clicked on
+
+2021-02-22 13:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductListPage/Product_Two' is clicked on
+
+2021-02-22 13:14:34 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ProductListPage/CompareButton"), 5000): Object 'Object Repository/ProductListPage/CompareButton' is clickable
+
+2021-02-22 13:14:35 - [MESSAGE][PASSED] - Object 'Object Repository/ProductListPage/CompareButton' is clickable
+
+2021-02-22 13:14:35 - [TEST_STEP][PASSED] - click(findTestObject("ProductListPage/CompareButton")): Object: 'Object Repository/ProductListPage/CompareButton' is clicked on
+
+2021-02-22 13:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductListPage/CompareButton' is clicked on
+
+2021-02-22 13:14:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ProductListPage/ProductOnCompareList"), 5000): Object 'Object Repository/ProductListPage/ProductOnCompareList' is clickable
+
+2021-02-22 13:14:39 - [MESSAGE][PASSED] - Object 'Object Repository/ProductListPage/ProductOnCompareList' is clickable
+
+2021-02-22 13:14:39 - [TEST_STEP][PASSED] - click(findTestObject("ProductListPage/ProductOnCompareList")): Object: 'Object Repository/ProductListPage/ProductOnCompareList' is clicked on
+
+2021-02-22 13:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductListPage/ProductOnCompareList' is clicked on
+
+2021-02-22 13:14:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ProductListPage/RemoveFromCompareList"), 5000): Object 'Object Repository/ProductListPage/RemoveFromCompareList' is clickable
+
+2021-02-22 13:14:45 - [MESSAGE][PASSED] - Object 'Object Repository/ProductListPage/RemoveFromCompareList' is clickable
+
+2021-02-22 13:14:45 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+2021-02-22 13:14:45 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+2021-02-22 13:14:45 - [TEST_STEP][PASSED] - click(findTestObject("ProductListPage/RemoveFromCompareList")): Object: 'Object Repository/ProductListPage/RemoveFromCompareList' is clicked on
+
+2021-02-22 13:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductListPage/RemoveFromCompareList' is clicked on
+
+2021-02-22 13:14:45 - [TEST_STEP][PASSED] - scrollToPosition(500, 0): Browser is scrolled to position x = 500, y = 0
+
+2021-02-22 13:14:45 - [MESSAGE][PASSED] - Browser is scrolled to position x = 500, y = 0
+
+2021-02-22 13:14:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ProductListPage/WhereToBuyButton"), 5000): Object 'Object Repository/ProductListPage/WhereToBuyButton' is clickable
+
+2021-02-22 13:14:47 - [MESSAGE][PASSED] - Object 'Object Repository/ProductListPage/WhereToBuyButton' is clickable
+
+2021-02-22 13:14:47 - [TEST_STEP][PASSED] - click(findTestObject("ProductListPage/WhereToBuyButton")): Object: 'Object Repository/ProductListPage/WhereToBuyButton' is clicked on
+
+2021-02-22 13:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductListPage/WhereToBuyButton' is clicked on
+
+2021-02-22 13:15:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-22 13:15:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HVAC_Motor_Compare" time="55.262" classname="Test Cases/HVAC_Motor_Compare" status="PASSED">
+         <system-out><![CDATA[2021-02-22 13:15:06 - [TEST_CASE][PASSED] - Test Cases/HVAC_Motor_Compare: Test Cases/HVAC_Motor_Compare
+
+2021-02-22 13:15:07 - [TEST_STEP][PASSED] - openBrowser(RegalURL): Browser is opened with url: 'https://qawww.regalbeloit.com/'
+
+2021-02-22 13:15:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-22 13:15:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-22 13:15:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qawww.regalbeloit.com/'
+
+2021-02-22 13:15:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-22 13:15:20 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-22 13:15:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/Industries/industries"), 30000): Object 'Object Repository/HomePage/Industries/industries' is clickable
+
+2021-02-22 13:15:21 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Industries/industries' is clickable
+
+2021-02-22 13:15:21 - [TEST_STEP][PASSED] - mouseOver(findTestObject("HomePage/Industries/industries")): Object: 'Object Repository/HomePage/Industries/industries' is hovered
+
+2021-02-22 13:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Industries/industries' is hovered
+
+2021-02-22 13:15:22 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Industries/GrainHandling")): Object: 'Object Repository/HomePage/Industries/GrainHandling' is clicked on
+
+2021-02-22 13:15:26 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Industries/GrainHandling' is clicked on
+
+2021-02-22 13:15:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-02-22 13:15:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-02-22 13:15:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/Industries/MotorLink"), 30000): Object 'Object Repository/HomePage/Industries/MotorLink' is clickable
+
+2021-02-22 13:15:31 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Industries/MotorLink' is clickable
+
+2021-02-22 13:15:31 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Industries/MotorLink")): Object: 'Object Repository/HomePage/Industries/MotorLink' is clicked on
+
+2021-02-22 13:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Industries/MotorLink' is clicked on
+
+2021-02-22 13:15:35 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/Industries/HVAC_Motor"), 30000): Object 'Object Repository/HomePage/Industries/HVAC_Motor' is clickable
+
+2021-02-22 13:15:36 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Industries/HVAC_Motor' is clickable
+
+2021-02-22 13:15:36 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Industries/HVAC_Motor")): Object: 'Object Repository/HomePage/Industries/HVAC_Motor' is clicked on
+
+2021-02-22 13:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Industries/HVAC_Motor' is clicked on
+
+2021-02-22 13:15:42 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-02-22 13:15:46 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-02-22 13:15:46 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/Industries/FanAndBowler"), 30000): Object 'Object Repository/HomePage/Industries/FanAndBowler' is clickable
+
+2021-02-22 13:15:46 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Industries/FanAndBowler' is clickable
+
+2021-02-22 13:15:46 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Industries/FanAndBowler")): Object: 'Object Repository/HomePage/Industries/FanAndBowler' is clicked on
+
+2021-02-22 13:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Industries/FanAndBowler' is clicked on
+
+2021-02-22 13:15:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/Industries/MotorOne"), 30000): Object 'Object Repository/HomePage/Industries/MotorOne' is clickable
+
+2021-02-22 13:15:53 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Industries/MotorOne' is clickable
+
+2021-02-22 13:15:53 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Industries/MotorOne")): Object: 'Object Repository/HomePage/Industries/MotorOne' is clicked on
+
+2021-02-22 13:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Industries/MotorOne' is clicked on
+
+2021-02-22 13:15:53 - [TEST_STEP][PASSED] - scrollToPosition(500, 0): Browser is scrolled to position x = 500, y = 0
+
+2021-02-22 13:15:53 - [MESSAGE][PASSED] - Browser is scrolled to position x = 500, y = 0
+
+2021-02-22 13:15:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/Industries/MotorTwo"), 30000): Object 'Object Repository/HomePage/Industries/MotorTwo' is clickable
+
+2021-02-22 13:15:55 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Industries/MotorTwo' is clickable
+
+2021-02-22 13:15:55 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Industries/MotorTwo")): Object: 'Object Repository/HomePage/Industries/MotorTwo' is clicked on
+
+2021-02-22 13:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Industries/MotorTwo' is clicked on
+
+2021-02-22 13:15:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("ProductListPage/CompareButton"), 30000): Object 'Object Repository/ProductListPage/CompareButton' is clickable
+
+2021-02-22 13:15:57 - [MESSAGE][PASSED] - Object 'Object Repository/ProductListPage/CompareButton' is clickable
+
+2021-02-22 13:15:57 - [TEST_STEP][PASSED] - click(findTestObject("ProductListPage/CompareButton")): Object: 'Object Repository/ProductListPage/CompareButton' is clicked on
+
+2021-02-22 13:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ProductListPage/CompareButton' is clicked on
+
+2021-02-22 13:16:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/Industries/ShowDifferenceOnly"), 30000): Object 'Object Repository/HomePage/Industries/ShowDifferenceOnly' is clickable
+
+2021-02-22 13:16:01 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/Industries/ShowDifferenceOnly' is clickable
+
+2021-02-22 13:16:01 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/Industries/ShowDifferenceOnly")): Object: 'Object Repository/HomePage/Industries/ShowDifferenceOnly' is clicked on
+
+2021-02-22 13:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Industries/ShowDifferenceOnly' is clicked on
+
+2021-02-22 13:16:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-22 13:16:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-22 13:13:25 - [TEST_SUITE][PASSED] - SuitOn: Test Cases/HVAC_Motor_Compare]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
