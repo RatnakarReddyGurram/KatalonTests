@@ -13,10 +13,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 WebUI.openBrowser(GlobalVariable.RegalURL)
 
 WebUI.maximizeWindow()
+
+WebUI.delay(4)
 
 WebUI.waitForElementClickable(findTestObject('HomePage/ProductList/Products'), 30000)
 
