@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>PDP - Validate the View Substitute Link on PDP page</description>
+   <name>A15 - Validate(ViewSubstituteOnPDP)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>deb84663-777b-49ca-ac88-6dfbafa4f7e1</testCaseGuid>
+</TestCaseEntity>

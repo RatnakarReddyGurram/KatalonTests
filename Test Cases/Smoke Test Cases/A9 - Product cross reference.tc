@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SEARCH - Search for non-PDP item - logged in Users -should return results for partial and full part search</description>
+   <name>A9 - Product cross reference</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>983c1660-dc22-4c2d-8dfe-7f39b3289cf9</testCaseGuid>
+</TestCaseEntity>

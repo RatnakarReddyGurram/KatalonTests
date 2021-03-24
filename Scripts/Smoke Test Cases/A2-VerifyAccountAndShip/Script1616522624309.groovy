@@ -1,0 +1,47 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+
+WebUI.callTestCase(findTestCase('Smoke Test Cases/A1-Login Test'), [:], FailureHandling.STOP_ON_FAILURE)
+
+if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Cookies'))
+}
+
+WebUI.delay(3)
+
+//WebUI.scrollToPosition(0, 200)
+//WebUI.waitForElementClickable(findTestObject('RegalBeloit/LoginPage/RegalBeloit/ChangeAccount'), 5000)
+WebUI.doubleClick(findTestObject('RegalBeloit/LoginPage/RegalBeloit/ChangeAccount'))
+
+WebUI.click(findTestObject('RegalBeloit/LoginPage/RegalBeloit/Account5'))
+
+WebUI.click(findTestObject('RegalBeloit/LoginPage/RegalBeloit/Account4'))
+
+WebUI.click(findTestObject('RegalBeloit/LoginPage/RegalBeloit/MakeThisMydefaultAccount'))
+
+WebUI.click(findTestObject('RegalBeloit/LoginPage/RegalBeloit/ConfirmAccount'))
+
+WebUI.click(findTestObject('RegalBeloit/LoginPage/RegalBeloit/ChangeAdresslink'))
+
+WebUI.click(findTestObject('RegalBeloit/LoginPage/RegalBeloit/ConfirmShipmentAddress'))
+
+WebUI.click(findTestObject('RegalBeloit/LoginPage/RegalBeloit/Account'))
+
+WebUI.click(findTestObject('RegalBeloit/LoginPage/RegalBeloit/Logout'))
+
+WebUI.closeBrowser()
+

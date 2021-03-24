@@ -27,26 +27,40 @@ WebUI.mouseOver(findTestObject('HomePage/Industries/industries'))
 WebUI.click(findTestObject('HomePage/Industries/GrainHandling'))
 
 WebUI.delay(5)
-
+if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Cookies'))
+}
 WebUI.waitForElementClickable(findTestObject('HomePage/Industries/MotorLink'), 30000)
 
 WebUI.click(findTestObject('HomePage/Industries/MotorLink'))
+
+if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Cookies'))
+}
 
 WebUI.waitForElementClickable(findTestObject('HomePage/Industries/HVAC_Motor'), 30000)
 
 WebUI.click(findTestObject('HomePage/Industries/HVAC_Motor'))
 
 WebUI.delay(4)
-
+if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Cookies'))
+}
 WebUI.waitForElementClickable(findTestObject('HomePage/Industries/FanAndBowler'), 30000)
 
 WebUI.click(findTestObject('HomePage/Industries/FanAndBowler'))
+
+if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Cookies'))
+}
 
 WebUI.waitForElementClickable(findTestObject('HomePage/Industries/MotorOne'), 30000)
 
 WebUI.click(findTestObject('HomePage/Industries/MotorOne'))
 
-WebUI.scrollToPosition(500, 0)
+if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Cookies'))
+}
 
 WebUI.waitForElementClickable(findTestObject('HomePage/Industries/MotorTwo'), 30000)
 
@@ -55,6 +69,10 @@ WebUI.click(findTestObject('HomePage/Industries/MotorTwo'))
 WebUI.waitForElementClickable(findTestObject('ProductListPage/CompareButton'), 30000)
 
 WebUI.click(findTestObject('ProductListPage/CompareButton'))
+
+if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Cookies'))
+}
 
 WebUI.waitForElementClickable(findTestObject('HomePage/Industries/ShowDifferenceOnly'), 30000)
 

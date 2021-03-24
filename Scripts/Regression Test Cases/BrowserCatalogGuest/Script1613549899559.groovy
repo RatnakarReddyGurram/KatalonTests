@@ -25,6 +25,10 @@ WebUI.waitForElementClickable(findTestObject('HomePage/Search_Button'), 5000)
 
 WebUI.click(findTestObject('HomePage/Search_Button'))
 
+if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Cookies'))
+}
+
 WebUI.waitForElementClickable(findTestObject('ProductListPage/Brand_Filter'), 5000)
 
 WebUI.click(findTestObject('ProductListPage/Brand_Filter'))
@@ -33,7 +37,9 @@ WebUI.waitForElementClickable(findTestObject('ProductListPage/ProductOne'), 3000
 
 WebUI.click(findTestObject('ProductListPage/ProductOne'))
 
-WebUI.scrollToPosition(500, 0)
+if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Cookies'))
+}
 
 WebUI.waitForElementClickable(findTestObject('ProductListPage/Product_Two'), 5000)
 
@@ -49,11 +55,15 @@ WebUI.click(findTestObject('ProductListPage/ProductOnCompareList'))
 
 WebUI.waitForElementClickable(findTestObject('ProductListPage/RemoveFromCompareList'), 5000)
 
-WebUI.scrollToPosition(0, 500)
+if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Cookies'))
+}
 
 WebUI.click(findTestObject('ProductListPage/RemoveFromCompareList'))
 
-WebUI.scrollToPosition(500, 0)
+if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Cookies'))
+}
 
 WebUI.waitForElementClickable(findTestObject('ProductListPage/WhereToBuyButton'), 5000)
 

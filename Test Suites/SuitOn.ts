@@ -15,18 +15,18 @@
       <guid>a1a44098-f70e-4006-8093-0e4eb77bf03a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BrowserProductElink</testCaseId>
+      <testCaseId>Test Cases/Regression Test Cases/BrowserProductElink</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f89975b5-4b54-4343-9c4a-a10b407028c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/BrowserCatalogGuest</testCaseId>
+      <testCaseId>Test Cases/Regression Test Cases/BrowserCatalogGuest</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9f3d75d2-45fd-41c9-abbb-4bbe56e3bc76</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/HVAC_Motor_Compare</testCaseId>
+      <testCaseId>Test Cases/Regression Test Cases/HVAC_Motor_Compare</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

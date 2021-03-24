@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>LOGIN - After successful login user should be able to select account and ship-to</description>
+   <name>A2-VerifyAccountAndShip</name>
+   <tag>A2</tag>
+   <comment></comment>
+   <testCaseGuid>13b3f511-f8e7-41e0-a6f4-215ec8e4ff6b</testCaseGuid>
+   <variable>
+      <defaultValue>'vwebster@lselectric.com'</defaultValue>
+      <description></description>
+      <id>19ab0755-0a34-46a4-b184-8366f9cc7a2a</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Abcdefgh'</defaultValue>
+      <description></description>
+      <id>0acf76cc-c895-455c-a230-c785159cf0cb</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

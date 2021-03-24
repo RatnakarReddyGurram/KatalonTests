@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SEARCH - Product Cross Reference.  Test begins with contains.  Both Regal and Competitor Part</description>
+   <name>A8 - Search (non PDP with logged in user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7eed0bb-9239-4fd3-be8f-6e66baba4609</testCaseGuid>
+</TestCaseEntity>

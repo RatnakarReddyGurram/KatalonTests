@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SEARCH - Search for non-PDP item-not logged in should only return full results</description>
+   <name>A7 - Search (non PDP not logged)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5bc5d132-7bb7-485c-89d0-b0fe749d2dae</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9ee60b6-ed99-4e8c-9bb4-fea813597d83</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

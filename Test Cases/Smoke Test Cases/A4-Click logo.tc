@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>verifying logo link</description>
+   <name>A4-Click logo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d842067b-c582-4d8e-a26d-a7074a9a89fa</testCaseGuid>
+</TestCaseEntity>

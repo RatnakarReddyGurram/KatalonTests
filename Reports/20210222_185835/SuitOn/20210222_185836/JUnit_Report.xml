@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuitOn" time="45.466" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="SuitOn" tests="1" failures="0" errors="0" time="45.466" skips="0" timestamp="2021-02-22 18:58:49" hostname="900015183 - HYDLT-7WKMTT2.rbc.int" id="Test Suites/SuitOn">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210222_185835\\SuitOn\\20210222_185836"/>
+         <property name="logFiles" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210222_185835\\SuitOn\\20210222_185836\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="900015183 - HYDLT-7WKMTT2.rbc.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+         <property name="browser" value="Chrome 88.0.4324.96"/>
+         <property name="hostAddress" value="10.139.248.184"/>
+         <property name="sessionId" value="225213b2e96b2b45b4edc2bdca319d4a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BrowserProductElink" time="43.584" classname="Test Cases/BrowserProductElink" status="PASSED">
+         <system-out><![CDATA[2021-02-22 18:58:50 - [TEST_CASE][PASSED] - Test Cases/BrowserProductElink: Test Cases/BrowserProductElink
+
+2021-02-22 18:58:51 - [TEST_STEP][PASSED] - openBrowser(RegalURL): Browser is opened with url: 'https://qawww.regalbeloit.com'
+
+2021-02-22 18:58:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-22 18:58:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-22 18:59:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qawww.regalbeloit.com'
+
+2021-02-22 18:59:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-22 18:59:05 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-22 18:59:05 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-02-22 18:59:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-02-22 18:59:09 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/ProductList/Products"), 30000): Object 'Object Repository/HomePage/ProductList/Products' is clickable
+
+2021-02-22 18:59:09 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/ProductList/Products' is clickable
+
+2021-02-22 18:59:09 - [TEST_STEP][PASSED] - mouseOver(findTestObject("HomePage/ProductList/Products")): Object: 'Object Repository/HomePage/ProductList/Products' is hovered
+
+2021-02-22 18:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ProductList/Products' is hovered
+
+2021-02-22 18:59:10 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/ProductList/Bearings"), 30000): Object 'Object Repository/HomePage/ProductList/Bearings' is clickable
+
+2021-02-22 18:59:11 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/ProductList/Bearings' is clickable
+
+2021-02-22 18:59:11 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/ProductList/Bearings")): Object: 'Object Repository/HomePage/ProductList/Bearings' is clicked on
+
+2021-02-22 18:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ProductList/Bearings' is clicked on
+
+2021-02-22 18:59:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/ProductList/SmartInterchage"), 5000): Object 'Object Repository/HomePage/ProductList/SmartInterchage' is clickable
+
+2021-02-22 18:59:15 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/ProductList/SmartInterchage' is clickable
+
+2021-02-22 18:59:15 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/ProductList/SmartInterchage")): Object: 'Object Repository/HomePage/ProductList/SmartInterchage' is clicked on
+
+2021-02-22 18:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ProductList/SmartInterchage' is clicked on
+
+2021-02-22 18:59:15 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2021-02-22 18:59:15 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-02-22 18:59:15 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("HomePage/ProductList/RegalIcon"), 5000): Object 'Object Repository/HomePage/ProductList/RegalIcon' is clickable
+
+2021-02-22 18:59:30 - [MESSAGE][PASSED] - Object 'Object Repository/HomePage/ProductList/RegalIcon' is clickable
+
+2021-02-22 18:59:30 - [TEST_STEP][PASSED] - click(findTestObject("HomePage/ProductList/RegalIcon")): Object: 'Object Repository/HomePage/ProductList/RegalIcon' is clicked on
+
+2021-02-22 18:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ProductList/RegalIcon' is clicked on
+
+2021-02-22 18:59:33 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2021-02-22 18:59:33 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2021-02-22 18:59:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-22 18:59:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-22 18:58:49 - [TEST_SUITE][PASSED] - SuitOn: Test Cases/BrowserProductElink]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

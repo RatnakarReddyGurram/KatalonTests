@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SuitOn,Chrome 88.0.4324.96,,,2021-02-22 18:58:49,2021-02-22 18:59:34,45.251s,PASSED
+,,,,,,,
+Test Cases/BrowserProductElink,Chrome 88.0.4324.96,,,2021-02-22 18:58:50,2021-02-22 18:59:34,43.584s,PASSED
+openBrowser(RegalURL),Chrome 88.0.4324.96,,,2021-02-22 18:58:51,2021-02-22 18:59:03,11.828s,PASSED
+maximizeWindow(),Chrome 88.0.4324.96,,,2021-02-22 18:59:03,2021-02-22 18:59:05,2.201s,PASSED
+delay(4),Chrome 88.0.4324.96,,,2021-02-22 18:59:05,2021-02-22 18:59:09,4.036s,PASSED
+"waitForElementClickable(findTestObject(""HomePage/ProductList/Products""), 30000)",Chrome 88.0.4324.96,,,2021-02-22 18:59:09,2021-02-22 18:59:09,0.478s,PASSED
+"mouseOver(findTestObject(""HomePage/ProductList/Products""))",Chrome 88.0.4324.96,,,2021-02-22 18:59:09,2021-02-22 18:59:10,0.879s,PASSED
+"waitForElementClickable(findTestObject(""HomePage/ProductList/Bearings""), 30000)",Chrome 88.0.4324.96,,,2021-02-22 18:59:10,2021-02-22 18:59:11,0.377s,PASSED
+"click(findTestObject(""HomePage/ProductList/Bearings""))",Chrome 88.0.4324.96,,,2021-02-22 18:59:11,2021-02-22 18:59:13,2.785s,PASSED
+"waitForElementClickable(findTestObject(""HomePage/ProductList/SmartInterchage""), 5000)",Chrome 88.0.4324.96,,,2021-02-22 18:59:13,2021-02-22 18:59:15,1.358s,PASSED
+"click(findTestObject(""HomePage/ProductList/SmartInterchage""))",Chrome 88.0.4324.96,,,2021-02-22 18:59:15,2021-02-22 18:59:15,0.418s,PASSED
+switchToWindowIndex(1),Chrome 88.0.4324.96,,,2021-02-22 18:59:15,2021-02-22 18:59:15,0.035s,PASSED
+"waitForElementClickable(findTestObject(""HomePage/ProductList/RegalIcon""), 5000)",Chrome 88.0.4324.96,,,2021-02-22 18:59:15,2021-02-22 18:59:30,14.402s,PASSED
+"click(findTestObject(""HomePage/ProductList/RegalIcon""))",Chrome 88.0.4324.96,,,2021-02-22 18:59:30,2021-02-22 18:59:33,3.563s,PASSED
+closeWindowIndex(1),Chrome 88.0.4324.96,,,2021-02-22 18:59:33,2021-02-22 18:59:33,0.165s,PASSED
+closeBrowser(),Chrome 88.0.4324.96,,,2021-02-22 18:59:33,2021-02-22 18:59:34,0.752s,PASSED
