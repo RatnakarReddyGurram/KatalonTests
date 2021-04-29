@@ -15,5 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-CucumberKW.runWithCucumberRunner('Include/features/Test.feature')
-
+//CucumberKW.runFeatureFile('Include/features/Test.feature', FailureHandling.STOP_ON_FAILURE)
+CucumberKW.runFeatureFolder('Include/features/Test.feature')

@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SuitOn,Chrome 89.0.4389.90,,,2021-04-29 13:41:21,2021-04-29 13:44:59,3m - 38.302s,FAILED
+,,,,,,,
+Test Cases/Regression Test Cases/BrowserProductElink,Chrome 89.0.4389.90,,,2021-04-29 13:41:22,2021-04-29 13:41:46,23.673s,FAILED
+openBrowser(RegalURL),Chrome 89.0.4389.90,,,2021-04-29 13:41:23,2021-04-29 13:41:34,11.670s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-04-29 13:41:34,2021-04-29 13:41:34,0.171s,PASSED
+delay(4),Chrome 89.0.4389.90,,,2021-04-29 13:41:34,2021-04-29 13:41:38,4.057s,PASSED
+"waitForElementClickable(findTestObject(""HomePage/ProductList/Products""), 30000)",Chrome 89.0.4389.90,,,2021-04-29 13:41:38,2021-04-29 13:41:39,0.737s,PASSED
+"mouseOver(findTestObject(""HomePage/ProductList/Products""))",Chrome 89.0.4389.90,,,2021-04-29 13:41:39,2021-04-29 13:41:40,0.544s,PASSED
+"waitForElementClickable(findTestObject(""HomePage/ProductList/Bearings""), 30000)",Chrome 89.0.4389.90,,,2021-04-29 13:41:40,2021-04-29 13:41:40,0.350s,PASSED
+"click(findTestObject(""HomePage/ProductList/Bearings""))",Chrome 89.0.4389.90,,,2021-04-29 13:41:40,2021-04-29 13:41:43,2.491s,PASSED
+"waitForElementClickable(findTestObject(""HomePage/ProductList/SmartInterchage""), 5000)",Chrome 89.0.4389.90,,,2021-04-29 13:41:43,2021-04-29 13:41:44,1.555s,PASSED
+"click(findTestObject(""HomePage/ProductList/SmartInterchage""))",Chrome 89.0.4389.90,,,2021-04-29 13:41:44,2021-04-29 13:41:46,1.771s,FAILED
+,,,,,,,
+Test Cases/Regression Test Cases/BrowserCatalogGuest,Chrome 89.0.4389.90,,,2021-04-29 13:41:46,2021-04-29 13:42:09,23.548s,FAILED
+openBrowser(RegalURL),Chrome 89.0.4389.90,,,2021-04-29 13:41:46,2021-04-29 13:41:56,10.107s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-04-29 13:41:56,2021-04-29 13:41:56,0.151s,PASSED
+"sendKeys(findTestObject(""HomePage/Search_area""), ""severe duty motors"")",Chrome 89.0.4389.90,,,2021-04-29 13:41:56,2021-04-29 13:41:59,2.223s,PASSED
+"waitForElementClickable(findTestObject(""HomePage/Search_Button""), 5000)",Chrome 89.0.4389.90,,,2021-04-29 13:41:59,2021-04-29 13:41:59,0.335s,PASSED
+"click(findTestObject(""HomePage/Search_Button""))",Chrome 89.0.4389.90,,,2021-04-29 13:41:59,2021-04-29 13:41:59,0.423s,PASSED
+"if (verifyElementPresent(findTestObject(""Cookies""), 5, OPTIONAL))",Chrome 89.0.4389.90,,,2021-04-29 13:41:59,2021-04-29 13:42:05,5.720s,PASSED
+"waitForElementClickable(findTestObject(""ProductListPage/Brand_Filter""), 5000)",Chrome 89.0.4389.90,,,2021-04-29 13:42:05,2021-04-29 13:42:06,0.514s,PASSED
+"click(findTestObject(""ProductListPage/Brand_Filter""))",Chrome 89.0.4389.90,,,2021-04-29 13:42:06,2021-04-29 13:42:06,0.462s,PASSED
+"waitForElementClickable(findTestObject(""ProductListPage/ProductOne""), 30000)",Chrome 89.0.4389.90,,,2021-04-29 13:42:06,2021-04-29 13:42:07,1.119s,PASSED
+"click(findTestObject(""ProductListPage/ProductOne""))",Chrome 89.0.4389.90,,,2021-04-29 13:42:07,2021-04-29 13:42:08,0.404s,PASSED
+"if (verifyElementPresent(findTestObject(""Cookies""), 5, OPTIONAL))",Chrome 89.0.4389.90,,,2021-04-29 13:42:08,2021-04-29 13:42:09,1.874s,PASSED
+,,,,,,,
+Test Cases/Regression Test Cases/HVAC_Motor_Compare,Chrome 89.0.4389.90,Industries-Grain Handling-Motor-Hvac motor-Fan and blower motor-Select different motors-Compare-Select Show differences-Homepage,,2021-04-29 13:42:09,2021-04-29 13:44:59,2m - 49.387s,FAILED
+openBrowser(RegalURL),Chrome 89.0.4389.90,,,2021-04-29 13:42:10,2021-04-29 13:42:20,10.427s,PASSED
+maximizeWindow(),Chrome 89.0.4389.90,,,2021-04-29 13:42:20,2021-04-29 13:42:20,0.149s,PASSED
+"waitForElementClickable(findTestObject(""HomePage/Industries/industries""), 30000)",Chrome 89.0.4389.90,,,2021-04-29 13:42:20,2021-04-29 13:42:23,2.648s,PASSED
+"mouseOver(findTestObject(""HomePage/Industries/industries""))",Chrome 89.0.4389.90,,,2021-04-29 13:42:23,2021-04-29 13:42:23,0.492s,PASSED
+"click(findTestObject(""HomePage/Industries/GrainHandling""))",Chrome 89.0.4389.90,,,2021-04-29 13:42:23,2021-04-29 13:43:42,1m - 18.708s,PASSED
+delay(5),Chrome 89.0.4389.90,,,2021-04-29 13:43:42,2021-04-29 13:43:47,5.004s,PASSED
+"if (verifyElementPresent(findTestObject(""Cookies""), 5, OPTIONAL))",Chrome 89.0.4389.90,,,2021-04-29 13:43:47,2021-04-29 13:43:48,0.771s,PASSED
+"waitForElementClickable(findTestObject(""HomePage/Industries/MotorLink""), 30000)",Chrome 89.0.4389.90,,,2021-04-29 13:43:48,2021-04-29 13:43:48,0.435s,PASSED
+"click(findTestObject(""HomePage/Industries/MotorLink""))",Chrome 89.0.4389.90,,,2021-04-29 13:43:48,2021-04-29 13:43:51,2.583s,PASSED
+"if (verifyElementPresent(findTestObject(""Cookies""), 5, OPTIONAL))",Chrome 89.0.4389.90,,,2021-04-29 13:43:51,2021-04-29 13:43:52,1.430s,PASSED
+"waitForElementClickable(findTestObject(""HomePage/Industries/HVAC_Motor""), 30000)",Chrome 89.0.4389.90,,,2021-04-29 13:43:52,2021-04-29 13:43:53,0.452s,PASSED
+"click(findTestObject(""HomePage/Industries/HVAC_Motor""))",Chrome 89.0.4389.90,,,2021-04-29 13:43:53,2021-04-29 13:43:57,4.210s,PASSED
+delay(4),Chrome 89.0.4389.90,,,2021-04-29 13:43:57,2021-04-29 13:44:01,4.004s,PASSED
+"if (verifyElementPresent(findTestObject(""Cookies""), 5, OPTIONAL))",Chrome 89.0.4389.90,,,2021-04-29 13:44:01,2021-04-29 13:44:02,0.769s,PASSED
+"waitForElementClickable(findTestObject(""HomePage/Industries/FanAndBowler""), 30000)",Chrome 89.0.4389.90,,,2021-04-29 13:44:02,2021-04-29 13:44:59,57.060s,FAILED
