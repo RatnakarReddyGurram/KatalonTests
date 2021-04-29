@@ -21,25 +21,25 @@ WebUI.maximizeWindow()
 
 WebUI.delay(4)
 
-WebUI.waitForElementClickable(findTestObject('HomePage/ProductList/Products'), 30000)
-
-WebUI.mouseOver(findTestObject('HomePage/ProductList/Products'))
-
-WebUI.waitForElementClickable(findTestObject('HomePage/ProductList/Bearings'), 30000)
-
-WebUI.click(findTestObject('HomePage/ProductList/Bearings'))
-
-WebUI.waitForElementClickable(findTestObject('HomePage/ProductList/SmartInterchage'), 5000)
-
-WebUI.click(findTestObject('HomePage/ProductList/SmartInterchage'))
-
-WebUI.switchToWindowIndex(1)
-
-WebUI.waitForElementClickable(findTestObject('HomePage/ProductList/RegalIcon'), 5000)
-
-WebUI.click(findTestObject('HomePage/ProductList/RegalIcon'))
-
-WebUI.closeWindowIndex(1)
+//WebUI.waitForElementClickable(findTestObject('HomePage/ProductList/Products'), 30000)
+//
+//WebUI.mouseOver(findTestObject('HomePage/ProductList/Products'))
+//
+//WebUI.waitForElementClickable(findTestObject('HomePage/ProductList/Bearings'), 30000)
+//
+//WebUI.click(findTestObject('HomePage/ProductList/Bearings'))
+//
+//WebUI.waitForElementClickable(findTestObject('HomePage/ProductList/SmartInterchage'), 5000)
+//
+//WebUI.click(findTestObject('HomePage/ProductList/SmartInterchage'))
+//
+//WebUI.switchToWindowIndex(1)
+//
+//WebUI.waitForElementClickable(findTestObject('HomePage/ProductList/RegalIcon'), 5000)
+//
+//WebUI.click(findTestObject('HomePage/ProductList/RegalIcon'))
+//
+//WebUI.closeWindowIndex(1)
 
 WebUI.closeBrowser()
 

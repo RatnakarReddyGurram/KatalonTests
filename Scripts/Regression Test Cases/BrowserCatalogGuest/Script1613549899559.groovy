@@ -23,51 +23,51 @@ WebUI.sendKeys(findTestObject('HomePage/Search_area'), 'severe duty motors')
 
 WebUI.waitForElementClickable(findTestObject('HomePage/Search_Button'), 5000)
 
-WebUI.click(findTestObject('HomePage/Search_Button'))
-
-if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
-	WebUI.click(findTestObject('Cookies'))
-}
-
-WebUI.waitForElementClickable(findTestObject('ProductListPage/Brand_Filter'), 5000)
-
-WebUI.click(findTestObject('ProductListPage/Brand_Filter'))
-
-WebUI.waitForElementClickable(findTestObject('ProductListPage/ProductOne'), 30000)
-
-WebUI.click(findTestObject('ProductListPage/ProductOne'))
-
-if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Cookies'))
-}
-
-WebUI.waitForElementClickable(findTestObject('ProductListPage/Product_Two'), 5000)
-
-WebUI.click(findTestObject('ProductListPage/Product_Two'))
-
-WebUI.waitForElementClickable(findTestObject('ProductListPage/CompareButton'), 5000)
-
-WebUI.click(findTestObject('ProductListPage/CompareButton'))
-
-WebUI.waitForElementClickable(findTestObject('ProductListPage/ProductOnCompareList'), 5000)
-
-WebUI.click(findTestObject('ProductListPage/ProductOnCompareList'))
-
-WebUI.waitForElementClickable(findTestObject('ProductListPage/RemoveFromCompareList'), 5000)
-
-if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Cookies'))
-}
-
-WebUI.click(findTestObject('ProductListPage/RemoveFromCompareList'))
-
-if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Cookies'))
-}
-
-WebUI.waitForElementClickable(findTestObject('ProductListPage/WhereToBuyButton'), 5000)
-
-WebUI.click(findTestObject('ProductListPage/WhereToBuyButton'))
+//WebUI.click(findTestObject('HomePage/Search_Button'))
+//
+//if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+//	WebUI.click(findTestObject('Cookies'))
+//}
+//
+//WebUI.waitForElementClickable(findTestObject('ProductListPage/Brand_Filter'), 5000)
+//
+//WebUI.click(findTestObject('ProductListPage/Brand_Filter'))
+//
+//WebUI.waitForElementClickable(findTestObject('ProductListPage/ProductOne'), 30000)
+//
+//WebUI.click(findTestObject('ProductListPage/ProductOne'))
+//
+//if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+//    WebUI.click(findTestObject('Cookies'))
+//}
+//
+//WebUI.waitForElementClickable(findTestObject('ProductListPage/Product_Two'), 5000)
+//
+//WebUI.click(findTestObject('ProductListPage/Product_Two'))
+//
+//WebUI.waitForElementClickable(findTestObject('ProductListPage/CompareButton'), 5000)
+//
+//WebUI.click(findTestObject('ProductListPage/CompareButton'))
+//
+//WebUI.waitForElementClickable(findTestObject('ProductListPage/ProductOnCompareList'), 5000)
+//
+//WebUI.click(findTestObject('ProductListPage/ProductOnCompareList'))
+//
+//WebUI.waitForElementClickable(findTestObject('ProductListPage/RemoveFromCompareList'), 5000)
+//
+//if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+//    WebUI.click(findTestObject('Cookies'))
+//}
+//
+//WebUI.click(findTestObject('ProductListPage/RemoveFromCompareList'))
+//
+//if (WebUI.verifyElementPresent(findTestObject('Cookies'), 5, FailureHandling.OPTIONAL)) {
+//    WebUI.click(findTestObject('Cookies'))
+//}
+//
+//WebUI.waitForElementClickable(findTestObject('ProductListPage/WhereToBuyButton'), 5000)
+//
+//WebUI.click(findTestObject('ProductListPage/WhereToBuyButton'))
 
 WebUI.closeBrowser()
 
