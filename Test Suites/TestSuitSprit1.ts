@@ -23,4 +23,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Smoke Test Cases/Login Verification</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a1f8a5be-1784-46b7-8ad2-d700b6eb892a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smoke Test Cases/Verifying Add functionality</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
