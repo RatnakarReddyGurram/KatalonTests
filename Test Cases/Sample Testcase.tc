@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login Verification</name>
+   <name>Sample Testcase</name>
    <tag></tag>
    <integratedEntity>
       <productName>com.katalon.plugin.testrail.TestRailIntegration</productName>
@@ -14,5 +14,5 @@
       <type>TESTCASE</type>
    </integratedEntity>
    <comment></comment>
-   <testCaseGuid>78a68d14-c04a-4262-b387-807f62634b2c</testCaseGuid>
+   <testCaseGuid>2544f8ff-b2cf-40a9-b35a-70d89c8bdbdc</testCaseGuid>
 </TestCaseEntity>

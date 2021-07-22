@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestRail,Chrome 91.0.4472.101,,,2021-07-22 16:08:48,2021-07-22 16:08:59,10.592s,PASSED
+,,,,,,,
+Test Cases/TestRail TestCases/katalon One,Chrome 91.0.4472.101,,,2021-07-22 16:08:50,2021-07-22 16:08:55,4.641s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.101,,,2021-07-22 16:08:50,2021-07-22 16:08:54,3.601s,PASSED
+closeBrowser(),Chrome 91.0.4472.101,,,2021-07-22 16:08:54,2021-07-22 16:08:55,0.708s,PASSED
+,,,,,,,
+Test Cases/TestRail TestCases/Katalon two,Chrome 91.0.4472.101,,,2021-07-22 16:08:55,2021-07-22 16:08:59,3.751s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.101,,,2021-07-22 16:08:55,2021-07-22 16:08:58,2.820s,PASSED
+closeBrowser(),Chrome 91.0.4472.101,,,2021-07-22 16:08:58,2021-07-22 16:08:59,0.705s,PASSED

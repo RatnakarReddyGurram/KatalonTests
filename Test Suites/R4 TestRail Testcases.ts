@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FilteringTestSuiteEntity>
    <description></description>
-   <name>TestRail</name>
+   <name>R4 TestRail Testcases</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,8 +10,8 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>a0168644-79c1-463b-b4da-5244e635cc0f</testSuiteGuid>
+   <testSuiteGuid>3fc701ed-ba56-4913-90e4-12e2ec641b23</testSuiteGuid>
    <filteringExtension>com.katalon.plugin.dynamic_execution.TestRailFilteringTestSuiteImpl</filteringExtension>
    <filteringPlugin>com.katalon.katalon-studio-testrail-plugin</filteringPlugin>
-   <filteringText>S3</filteringText>
+   <filteringText>R4</filteringText>
 </FilteringTestSuiteEntity>
