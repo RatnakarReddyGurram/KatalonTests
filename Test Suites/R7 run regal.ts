@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TestSuiteEntity>
+<FilteringTestSuiteEntity>
    <description></description>
-   <name>SuitOn</name>
+   <name>R7 run regal</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,11 +10,8 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>f7a48065-5026-4d7f-9078-4973d3749dcd</testSuiteGuid>
-   <testCaseLink>
-      <guid>05001760-6e65-49d3-a202-5bf4d1fc717a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Smoke Test Cases/A1-Login Test</testCaseId>
-   </testCaseLink>
-</TestSuiteEntity>
+   <testSuiteGuid>46121b65-8abf-4059-a690-0665e5f7edc8</testSuiteGuid>
+   <filteringExtension>com.katalon.plugin.dynamic_execution.TestRailFilteringTestSuiteImpl</filteringExtension>
+   <filteringPlugin>com.katalon.katalon-studio-testrail-plugin</filteringPlugin>
+   <filteringText>R7</filteringText>
+</FilteringTestSuiteEntity>

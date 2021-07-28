@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="R7 run regal" time="11.353" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="R7 run regal" tests="2" failures="0" errors="0" time="11.353" skips="0" timestamp="2021-07-22 22:08:37" hostname="900015183 - HYDLT-7WKMTT2.rbc.int" id="Test Suites/R7 run regal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210722_220833\\R7 run regal\\20210722_220833"/>
+         <property name="logFiles" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210722_220833\\R7 run regal\\20210722_220833\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="900015183 - HYDLT-7WKMTT2.rbc.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+         <property name="browser" value="Chrome 91.0.4472.101"/>
+         <property name="hostAddress" value="10.139.248.99"/>
+         <property name="sessionId" value="3b90c76ba2e70c6937a602e97bcd167b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/JGT/One Test" time="5.352" classname="Test Cases/JGT/One Test" status="PASSED">
+         <system-out><![CDATA[2021-07-22 22:08:39 - [TEST_CASE][PASSED] - Test Cases/JGT/One Test: Test Cases/JGT/One Test
+
+2021-07-22 22:08:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-22 22:08:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-22 22:08:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-22 22:08:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-22 22:08:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-22 22:08:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JGT/Two Test" time="3.798" classname="Test Cases/JGT/Two Test" status="PASSED">
+         <system-out><![CDATA[2021-07-22 22:08:45 - [TEST_CASE][PASSED] - Test Cases/JGT/Two Test: Test Cases/JGT/Two Test
+
+2021-07-22 22:08:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-22 22:08:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-22 22:08:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-22 22:08:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-22 22:08:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-22 22:08:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-22 22:08:37 - [TEST_SUITE][PASSED] - R7 run regal: Test Cases/JGT/Two Test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="R4 TestRail Testcases" time="12.765" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="R4 TestRail Testcases" tests="2" failures="0" errors="0" time="12.765" skips="0" timestamp="2021-07-22 18:57:46" hostname="900015183 - HYDLT-7WKMTT2.rbc.int" id="Test Suites/R4 TestRail Testcases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210722_185743\\R4 TestRail Testcases\\20210722_185743"/>
+         <property name="logFiles" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210722_185743\\R4 TestRail Testcases\\20210722_185743\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="900015183 - HYDLT-7WKMTT2.rbc.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+         <property name="browser" value="Chrome 91.0.4472.101"/>
+         <property name="hostAddress" value="10.139.248.99"/>
+         <property name="sessionId" value="2409aebd59d36d8bcf38612acc36414a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestRail TestCases/katalon One" time="7.101" classname="Test Cases/TestRail TestCases/katalon One" status="PASSED">
+         <system-out><![CDATA[2021-07-22 18:57:48 - [TEST_CASE][PASSED] - Test Cases/TestRail TestCases/katalon One: Test Cases/TestRail TestCases/katalon One
+
+2021-07-22 18:57:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-22 18:57:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-22 18:57:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-22 18:57:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-22 18:57:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-22 18:57:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestRail TestCases/Katalon two" time="3.548" classname="Test Cases/TestRail TestCases/Katalon two" status="PASSED">
+         <system-out><![CDATA[2021-07-22 18:57:56 - [TEST_CASE][PASSED] - Test Cases/TestRail TestCases/Katalon two: Test Cases/TestRail TestCases/Katalon two
+
+2021-07-22 18:57:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-22 18:57:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-22 18:57:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-22 18:57:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-22 18:57:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-22 18:57:59 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-22 18:57:59 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2021-07-22 18:57:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-22 18:57:46 - [TEST_SUITE][PASSED] - R4 TestRail Testcases: Test Cases/TestRail TestCases/Katalon two]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

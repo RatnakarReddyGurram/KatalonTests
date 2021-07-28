@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestDemo20210430" time="18.833" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="TestDemo20210430" tests="2" failures="0" errors="0" time="18.833" skips="0" timestamp="2021-07-26 20:36:33" hostname="900015183 - HYDLT-7WKMTT2.rbc.int" id="Test Suites/TestDemo20210430">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210726_203623\\TestDemo20210430\\20210726_203623"/>
+         <property name="logFiles" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210726_203623\\TestDemo20210430\\20210726_203623\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="900015183 - HYDLT-7WKMTT2.rbc.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+         <property name="browser" value="Chrome 91.0.4472.101"/>
+         <property name="hostAddress" value="10.139.248.118"/>
+         <property name="sessionId" value="a3f0cf776a264b56a2e279b287793f1c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test Cases/Login Verification" time="7.833" classname="Test Cases/Smoke Test Cases/Login Verification" status="PASSED">
+         <system-out><![CDATA[2021-07-26 20:36:35 - [TEST_CASE][PASSED] - Test Cases/Smoke Test Cases/Login Verification: Test Cases/Smoke Test Cases/Login Verification
+
+2021-07-26 20:36:36 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2021-07-26 20:36:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-26 20:36:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-26 20:36:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test Cases/Logout Verification" time="7.348" classname="Test Cases/Smoke Test Cases/Logout Verification" status="PASSED">
+         <system-out><![CDATA[2021-07-26 20:36:43 - [TEST_CASE][PASSED] - Test Cases/Smoke Test Cases/Logout Verification: Test Cases/Smoke Test Cases/Logout Verification
+
+2021-07-26 20:36:43 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2021-07-26 20:36:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-07-26 20:36:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-26 20:36:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-26 20:36:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-26 20:36:33 - [TEST_SUITE][PASSED] - TestDemo20210430: Test Cases/Smoke Test Cases/Logout Verification]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+R7 run regal,Chrome 91.0.4472.101,,,2021-07-22 22:08:37,2021-07-22 22:08:48,11.147s,PASSED
+,,,,,,,
+Test Cases/JGT/One Test,Chrome 91.0.4472.101,,,2021-07-22 22:08:39,2021-07-22 22:08:44,5.352s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.101,,,2021-07-22 22:08:39,2021-07-22 22:08:44,4.272s,PASSED
+closeBrowser(),Chrome 91.0.4472.101,,,2021-07-22 22:08:44,2021-07-22 22:08:44,0.739s,PASSED
+,,,,,,,
+Test Cases/JGT/Two Test,Chrome 91.0.4472.101,,,2021-07-22 22:08:45,2021-07-22 22:08:48,3.798s,PASSED
+"openBrowser("""")",Chrome 91.0.4472.101,,,2021-07-22 22:08:45,2021-07-22 22:08:48,2.811s,PASSED
+closeBrowser(),Chrome 91.0.4472.101,,,2021-07-22 22:08:48,2021-07-22 22:08:48,0.700s,PASSED
