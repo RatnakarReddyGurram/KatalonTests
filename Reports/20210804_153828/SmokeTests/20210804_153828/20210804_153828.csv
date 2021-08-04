@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SmokeTests,Chrome 91.0.4472.101,,,2021-08-04 15:38:36,2021-08-04 15:39:28,52.208s,PASSED
+,,,,,,,
+Test Cases/Smoke Test Cases/A1-Login Test,Chrome 91.0.4472.101,LOGIN - Verify User can login,A1,2021-08-04 15:38:38,2021-08-04 15:39:27,48.698s,PASSED
+openBrowser(RegalURL),Chrome 91.0.4472.101,,,2021-08-04 15:38:38,2021-08-04 15:38:52,13.482s,PASSED
+maximizeWindow(),Chrome 91.0.4472.101,,,2021-08-04 15:38:52,2021-08-04 15:38:52,0.152s,PASSED
+"waitForElementClickable(findTestObject(""RegalBeloit/Login""), 5000)",Chrome 91.0.4472.101,,,2021-08-04 15:38:52,2021-08-04 15:38:55,3.090s,PASSED
+"click(findTestObject(""RegalBeloit/Login""))",Chrome 91.0.4472.101,,,2021-08-04 15:38:55,2021-08-04 15:39:00,4.460s,PASSED
+"if (verifyElementPresent(findTestObject(""Cookies""), 5, OPTIONAL))",Chrome 91.0.4472.101,,,2021-08-04 15:39:00,2021-08-04 15:39:01,1.677s,PASSED
+"waitForElementClickable(findTestObject(""RegalBeloit/LoginPage/Login""), 5000)",Chrome 91.0.4472.101,,,2021-08-04 15:39:01,2021-08-04 15:39:02,1.111s,PASSED
+"click(findTestObject(""RegalBeloit/LoginPage/Login""))",Chrome 91.0.4472.101,,,2021-08-04 15:39:02,2021-08-04 15:39:03,0.392s,PASSED
+"sendKeys(findTestObject(""RegalBeloit/LoginPage/UserName""), Username)",Chrome 91.0.4472.101,,,2021-08-04 15:39:03,2021-08-04 15:39:04,0.774s,PASSED
+"sendKeys(findTestObject(""RegalBeloit/LoginPage/Password""), Password)",Chrome 91.0.4472.101,,,2021-08-04 15:39:04,2021-08-04 15:39:04,0.504s,PASSED
+"click(findTestObject(""RegalBeloit/LoginPage/LoginButton""))",Chrome 91.0.4472.101,,,2021-08-04 15:39:04,2021-08-04 15:39:05,0.528s,PASSED
+"if (verifyElementPresent(findTestObject(""RegalBeloit/LoginPage/AccountSelectionWindow""), 5, OPTIONAL))",Chrome 91.0.4472.101,,,2021-08-04 15:39:05,2021-08-04 15:39:20,15.804s,PASSED
+"if (verifyElementPresent(findTestObject(""RegalBeloit/LoginPage/RegalBeloit/CloseButtonOnAddressPage""), 5, OPTIONAL))",Chrome 91.0.4472.101,,,2021-08-04 15:39:20,2021-08-04 15:39:27,6.442s,PASSED
+,,,,,,,
+Test Cases/Smoke Test Cases/Logout,Chrome 91.0.4472.101,Logout from account,,2021-08-04 15:39:27,2021-08-04 15:39:28,1.691s,PASSED
+"click(findTestObject(""RegalBeloit/LoginPage/RegalBeloit/Account""))",Chrome 91.0.4472.101,,,2021-08-04 15:39:27,2021-08-04 15:39:27,0.416s,PASSED
+"click(findTestObject(""RegalBeloit/LoginPage/RegalBeloit/Logout""))",Chrome 91.0.4472.101,,,2021-08-04 15:39:27,2021-08-04 15:39:28,0.367s,PASSED
+closeBrowser(),Chrome 91.0.4472.101,,,2021-08-04 15:39:28,2021-08-04 15:39:28,0.714s,PASSED

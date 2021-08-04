@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeTests" time="52.439" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="SmokeTests" tests="2" failures="0" errors="0" time="52.439" skips="0" timestamp="2021-08-04 15:38:36" hostname="900015183 - HYDLT-7WKMTT2.rbc.int" id="Test Suites/SmokeTests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210804_153828\\SmokeTests\\20210804_153828"/>
+         <property name="logFiles" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210804_153828\\SmokeTests\\20210804_153828\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210804_153828\\SmokeTests\\20210804_153828\\1628071760688.png, C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210804_153828\\SmokeTests\\20210804_153828\\1628071767126.png"/>
+         <property name="hostName" value="900015183 - HYDLT-7WKMTT2.rbc.int"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+         <property name="browser" value="Chrome 91.0.4472.101"/>
+         <property name="hostAddress" value="10.139.248.16"/>
+         <property name="sessionId" value="eebf1d33dd147811118123f6bf984ce1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke Test Cases/A1-Login Test" time="48.698" classname="Test Cases/Smoke Test Cases/A1-Login Test" status="PASSED">
+         <system-out><![CDATA[2021-08-04 15:38:38 - [TEST_CASE][PASSED] - Test Cases/Smoke Test Cases/A1-Login Test: Test Cases/Smoke Test Cases/A1-Login Test
+
+2021-08-04 15:38:38 - [TEST_STEP][PASSED] - openBrowser(RegalURL): Browser is opened with url: 'https://qawww.regalbeloit.com/'
+
+2021-08-04 15:38:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-08-04 15:38:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-08-04 15:38:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qawww.regalbeloit.com/'
+
+2021-08-04 15:38:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-08-04 15:38:52 - [MESSAGE][PASSED] - Current window maximized
+
+2021-08-04 15:38:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("RegalBeloit/Login"), 5000): Object 'Object Repository/RegalBeloit/Login' is clickable
+
+2021-08-04 15:38:55 - [MESSAGE][PASSED] - Object 'Object Repository/RegalBeloit/Login' is clickable
+
+2021-08-04 15:38:55 - [TEST_STEP][PASSED] - click(findTestObject("RegalBeloit/Login")): Object: 'Object Repository/RegalBeloit/Login' is clicked on
+
+2021-08-04 15:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/RegalBeloit/Login' is clicked on
+
+2021-08-04 15:39:00 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Cookies"), 5, OPTIONAL)): null
+
+2021-08-04 15:39:01 - [MESSAGE][PASSED] - Object 'Object Repository/Cookies' is present
+
+2021-08-04 15:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Cookies")): Object: 'Object Repository/Cookies' is clicked on
+
+2021-08-04 15:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Cookies' is clicked on
+
+2021-08-04 15:39:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("RegalBeloit/LoginPage/Login"), 5000): Object 'Object Repository/RegalBeloit/LoginPage/Login' is clickable
+
+2021-08-04 15:39:02 - [MESSAGE][PASSED] - Object 'Object Repository/RegalBeloit/LoginPage/Login' is clickable
+
+2021-08-04 15:39:02 - [TEST_STEP][PASSED] - click(findTestObject("RegalBeloit/LoginPage/Login")): Object: 'Object Repository/RegalBeloit/LoginPage/Login' is clicked on
+
+2021-08-04 15:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/RegalBeloit/LoginPage/Login' is clicked on
+
+2021-08-04 15:39:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("RegalBeloit/LoginPage/UserName"), Username): Keys 'vwebster@lselectric.com' sent to object: 'Object Repository/RegalBeloit/LoginPage/UserName'
+
+2021-08-04 15:39:04 - [MESSAGE][PASSED] - Keys 'vwebster@lselectric.com' sent to object: 'Object Repository/RegalBeloit/LoginPage/UserName'
+
+2021-08-04 15:39:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("RegalBeloit/LoginPage/Password"), Password): Keys 'Abcdefgh' sent to object: 'Object Repository/RegalBeloit/LoginPage/Password'
+
+2021-08-04 15:39:04 - [MESSAGE][PASSED] - Keys 'Abcdefgh' sent to object: 'Object Repository/RegalBeloit/LoginPage/Password'
+
+2021-08-04 15:39:04 - [TEST_STEP][PASSED] - click(findTestObject("RegalBeloit/LoginPage/LoginButton")): Object: 'Object Repository/RegalBeloit/LoginPage/LoginButton' is clicked on
+
+2021-08-04 15:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/RegalBeloit/LoginPage/LoginButton' is clicked on
+
+2021-08-04 15:39:05 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("RegalBeloit/LoginPage/AccountSelectionWindow"), 5, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegalBeloit/LoginPage/AccountSelectionWindow' located by '//*[@id="selectAccountForm"]/form/div[1]/div[2]/div/div[1]/div/div/div/input' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegalBeloit/LoginPage/AccountSelectionWindow' located by '//*[@id="selectAccountForm"]/form/div[1]/div[2]/div/div[1]/div/div/div/input' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1447)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at A1-Login Test.run(A1-Login Test:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1628071708301.run(TempTestSuite1628071708301.groovy:39)
+)
+
+2021-08-04 15:39:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="selectAccountForm"]/form/div[1]/div[2]/div/div[1]/div/div/div/input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-08-04 15:39:20 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegalBeloit/LoginPage/AccountSelectionWindow' located by '//*[@id="selectAccountForm"]/form/div[1]/div[2]/div/div[1]/div/div/div/input' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegalBeloit/LoginPage/AccountSelectionWindow' located by '//*[@id="selectAccountForm"]/form/div[1]/div[2]/div/div[1]/div/div/div/input' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1447)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at A1-Login Test.run(A1-Login Test:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1628071708301.run(TempTestSuite1628071708301.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210804_153828\\SmokeTests\\20210804_153828\\1628071760688.png]]
+
+2021-08-04 15:39:20 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("RegalBeloit/LoginPage/RegalBeloit/CloseButtonOnAddressPage"), 5, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegalBeloit/LoginPage/RegalBeloit/CloseButtonOnAddressPage' located by '//*[@id="selectAccountForm"]/form/div[2]/div[1]/button/i' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegalBeloit/LoginPage/RegalBeloit/CloseButtonOnAddressPage' located by '//*[@id="selectAccountForm"]/form/div[2]/div[1]/button/i' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1447)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at A1-Login Test.run(A1-Login Test:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1628071708301.run(TempTestSuite1628071708301.groovy:39)
+)
+
+2021-08-04 15:39:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="selectAccountForm"]/form/div[2]/div[1]/button/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-08-04 15:39:27 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegalBeloit/LoginPage/RegalBeloit/CloseButtonOnAddressPage' located by '//*[@id="selectAccountForm"]/form/div[2]/div[1]/button/i' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/RegalBeloit/LoginPage/RegalBeloit/CloseButtonOnAddressPage' located by '//*[@id="selectAccountForm"]/form/div[2]/div[1]/button/i' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1447)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at A1-Login Test.run(A1-Login Test:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1628071708301.run(TempTestSuite1628071708301.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\900015183\\git\\KatalonTests\\Reports\\20210804_153828\\SmokeTests\\20210804_153828\\1628071767126.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke Test Cases/Logout" time="1.691" classname="Test Cases/Smoke Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[2021-08-04 15:39:27 - [TEST_CASE][PASSED] - Test Cases/Smoke Test Cases/Logout: Test Cases/Smoke Test Cases/Logout
+
+2021-08-04 15:39:27 - [TEST_STEP][PASSED] - click(findTestObject("RegalBeloit/LoginPage/RegalBeloit/Account")): Object: 'Object Repository/RegalBeloit/LoginPage/RegalBeloit/Account' is clicked on
+
+2021-08-04 15:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/RegalBeloit/LoginPage/RegalBeloit/Account' is clicked on
+
+2021-08-04 15:39:27 - [TEST_STEP][PASSED] - click(findTestObject("RegalBeloit/LoginPage/RegalBeloit/Logout")): Object: 'Object Repository/RegalBeloit/LoginPage/RegalBeloit/Logout' is clicked on
+
+2021-08-04 15:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/RegalBeloit/LoginPage/RegalBeloit/Logout' is clicked on
+
+2021-08-04 15:39:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-08-04 15:39:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-08-04 15:38:36 - [TEST_SUITE][PASSED] - SmokeTests: Test Cases/Smoke Test Cases/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
