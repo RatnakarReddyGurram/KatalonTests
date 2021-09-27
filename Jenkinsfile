@@ -1,10 +1,5 @@
 node('uswaukatcli02') {
     
-    stage('Clone'){
-   
-   git 'https://github.com/RatnakarReddyGurram/KatalonTests.git'
-   
-    }
     
     stage('Execute tests'){
    
