@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>SEARCH - Perform a search that will result in multiple products (Try both Marathon and Leeson items )</description>
+   <description>SEARCH - </description>
    <name>A6-Search</name>
    <tag></tag>
    <comment></comment>
